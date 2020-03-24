@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="BeanMusteri" class="com.furkankara.musteri.Musteri">
+		<property name="adi" value="Mert"></property>
+		<property name="soyadi" value="Bozkurt"></property>
+		<property name="telNo" value=""></property>
+		<property name="adres" ref="BeanAdres"></property>
+	</bean>
+</beans>
